@@ -1,4 +1,5 @@
 //random number generator
+function playGame(){ 
 var randomNumber1 = Math.floor(Math.random()*6)+1;
 var randomNumber2 = Math.floor(Math.random()*6)+1;
 
@@ -23,4 +24,5 @@ else if (image1=image2){
 
     document.querySelector("h1").style.fontSize = "6rem"
     document.querySelector("h1").innerHTML= "Its a TIE, refresh me again!"
+}
 }

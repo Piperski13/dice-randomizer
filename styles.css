@@ -31,11 +31,25 @@ p {
 img {
   width: 80%;
 }
+ 
+button{
+  background-color:darkred;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  color: whitesmoke;
+  padding: 10px 45px;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: 'Indie Flower', cursive;
+}
 
 footer {
   margin-top: 5%;
   color: #EEEEEE;
-  text-align: center;
   font-family: 'Indie Flower', cursive;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
